@@ -1,6 +1,6 @@
 # Drupal 8 Twig snippets for Visual Studio Code
 
-This extension add 8 useful twig snippets that can be used with Drupal 8. These snippets were extracted from the [Functions - in Twig Templates](https://www.drupal.org/docs/8/theming/twig/functions-in-twig-templates) documentation.
+This extension adds 8 useful twig snippets that can be used with Drupal 8. These snippets were extracted from the [Functions - in Twig Templates](https://www.drupal.org/docs/8/theming/twig/functions-in-twig-templates) documentation.
 
 ## Installation
 
@@ -13,7 +13,7 @@ To install this extension use the following steps:
 
 ## Usage
 
-Once installed, to use these snippets you can use the following two methods, the first Method is geared towards people who are new to the snippets available whiel the second method is suitable for people who know the available snippets and are looking to increase their speed.
+Once installed, to use these snippets you can use the following two methods, the first Method is geared towards people who are new to the snippets available while the second method is suitable for people who know the available snippets and are looking to increase their speed.
 
 ### Method 1
 1. Open the **Command Palette**, `ctrl-shift-p` (Windows, Linux) or `cmd-shift-p` (OSX)
@@ -125,11 +125,13 @@ Example:
 These snippets are only made available in files with a `.twig` extension. To get proper support for Twig files in Visual Studio Code, you can install the [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2) extension by *mblode*.
 
 ## Release Notes
+### 1.0.2
 
-### 0.0.1
-
-Initial release
+Fix typos in README
 
 ### 1.0.1
 
 Added the Drupal 8 logo
+### 0.0.1
+
+Initial release
