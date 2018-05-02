@@ -129,3 +129,7 @@ These snippets are only made available in files with a `.twig` extension. To get
 ### 0.0.1
 
 Initial release
+
+### 1.0.1
+
+Added the Drupal 8 logo
