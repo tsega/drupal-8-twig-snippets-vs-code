@@ -2,8 +2,9 @@
     "name": "drupal-8-twig-snippets",
     "displayName": "Drupal 8 Twig Snippets",
     "description": "A handful of twig functions to use with Drupal 8.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "tsega",
+    "icon": "",
     "engines": {
         "vscode": "^1.22.0"
     },
