@@ -1,0 +1,58 @@
+{
+    "Attribute helper": {
+        "prefix": "attr",
+        "body": [
+            "{{ create_attribute({'${1:attr}': '${2:attrValue}'}) }}"
+        ],
+        "description": "This helper function creates an attribute for an HTML tag."
+    },
+    "File URL helper": {
+        "prefix": "furl",
+        "body": [
+            "{{ file_url(${1:path}) }}"
+        ],
+        "description": "This helper function accepts a relative path from the root and creates a relative URI path to the file."
+    },
+    "Library helper": {
+        "prefix": "lib",
+        "body": [
+            "{{ attach_library('${1:library/name}') }}"
+        ],
+        "description": "Attaches an asset library to the template."
+    },
+    "Link helper": {
+        "prefix": "lnk",
+        "body": [
+            "{{ link(${1:text}, ${2:url}, { '${3:attr}':${4:'attrValue'}}) }}"
+        ],
+        "description": "This helper function accepts as first parameter the text, as second parameter the url and a third set of attributes."
+    },
+    "Path helper": {
+        "prefix": "path",
+        "body": [
+            "{{ path('${1:route.name}', {'${2:param}': ${3:paramValue}}) }}"
+        ],
+        "description": "Generates a relative URL path given a route name and parameters."
+    },
+    "URL helper": {
+        "prefix": "urlh",
+        "body": [
+            "{{ url('${1:route.name}', {'${2:param}': ${3:paramValue}}) }}"
+        ],
+        "description": "Generate an absolute URL given a route name and parameters"
+    },
+    "Current URL helper": {
+        "prefix": "urlc",
+        "body": [
+            "{{ url('<current>') }}"
+        ],
+        "description": "Generate an absolute URL to the current page."
+    },
+    "Front page URL helper": {
+        "prefix": "urlf",
+        "body": [
+            "{{ url('<front>') }}"
+        ],
+        "description": "Generate an absolute URL to the front page."
+    }
+}
