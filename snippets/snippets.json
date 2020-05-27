@@ -54,5 +54,14 @@
             "{{ url('<front>') }}"
         ],
         "description": "Generate an absolute URL to the front page."
+    },
+    "Translation block helper": {
+        "prefix": "trans",
+        "body": [
+            "{% trans %}",
+            "\t${1:text}",
+            "{% endtrans %}"
+        ],
+        "description": "Allows translation for the content with the block"
     }
 }
